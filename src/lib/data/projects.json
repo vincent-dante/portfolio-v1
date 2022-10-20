@@ -15,7 +15,7 @@
 		"date": "2021.04",
 		"background": "In this project i build website using the Nasa Api. The website has search functionality that you can use, you can also click the image to see the details.",
 		"technology": "Vue.js, Node.js, HTML, CSS",
-		"link": "https://nasa-app-vincentdante.herokuapp.com/"
+		"link": "https://nasa-api-vincentdante.vercel.app/"
 	},
 	{
 		"id": "2",
@@ -24,7 +24,7 @@
 		"date": "2021.02",
 		"background": "In this project i use Poke Api for getting pokemon data",
 		"technology": "Vue.js, Node.js, Express.js, HTML, CSS",
-		"link": "https://pokemon-app-vincentdante.herokuapp.com/"
+		"link": "https://poke-api-vincentdante.up.railway.app/#/"
 	},
 	{
 		"id": "1",
@@ -33,6 +33,6 @@
 		"date": "2021.02",
 		"background": "In this project i use Marvel Api for creating marvel characters website. It's fun working on this project because i learn a lot about api and also working on my favorite marvel characters. ",
 		"technology": "Vue.js, Node.js, Express.js, HTML, CSS",
-		"link": "https://marvel-app-vincentdante.herokuapp.com/"
+		"link": "https://marvel-api-vincentdante.up.railway.app/#/"
 	}
 ]
