@@ -4,7 +4,7 @@
 		"coverImage": "/project-cover/manga-online",
 		"title": "Manga Online",
 		"date": "2022.10",
-		"background": "In this project i create MangaOnline for people who loves to read there favorite manga.",
+		"background": "In this personal project i create MangaOnline website for people who loves to read there favorite manga.",
 		"technology": "NextJS, HTML, CSS",
 		"link": "https://mangaonline.vercel.app/"
 	},
@@ -13,7 +13,7 @@
 		"coverImage": "/project-cover/nasa",
 		"title": "Nasa Api",
 		"date": "2021.04",
-		"background": "In this project i build website using the Nasa Api. The website has search functionality that you can use, you can also click the image to see the details.",
+		"background": "In this personal project i build website using the Nasa Api. The website has search functionality that you can use to search nasa images and also click the image to see the details.",
 		"technology": "Vue.js, Node.js, HTML, CSS",
 		"link": "https://nasa-api-vincentdante.vercel.app/"
 	},
@@ -22,7 +22,7 @@
 		"coverImage": "/project-cover/pokemon",
 		"title": "Poké Api",
 		"date": "2021.02",
-		"background": "In this project i use Poke Api for getting pokemon data",
+		"background": "In this personal project i build website for pokemon using Poke Api. Inside the website you can search your favourite pokemon and see the attributes of the pokemon",
 		"technology": "Vue.js, Node.js, Express.js, HTML, CSS",
 		"link": "https://poke-api-vincentdante.up.railway.app/#/"
 	},
@@ -31,7 +31,7 @@
 		"coverImage": "/project-cover/marvel",
 		"title": "Marvel Api",
 		"date": "2021.02",
-		"background": "In this project i use Marvel Api for creating marvel characters website. It's fun working on this project because i learn a lot about api and also working on my favorite marvel characters. ",
+		"background": "In this personal project i use Marvel Api for creating marvel characters website. You can search your favourite marvel characters on it and see the associate comics you can also see the people who work on the comics. It's fun working on this project because i learn a lot about api and also working on my favourite marvel characters.",
 		"technology": "Vue.js, Node.js, Express.js, HTML, CSS",
 		"link": "https://marvel-api-vincentdante.up.railway.app/#/"
 	}
