@@ -1,5 +1,23 @@
 [
 	{
+		"id": "6",
+		"coverImage": "/project-cover/slurpee",
+		"title": "Slurpee",
+		"date": "2023.01",
+		"background": "In this personal project, I redesign a Slurpee website. I hope you like it 😋",
+		"technology": "NextJS, HTML, CSS",
+		"link": "https://slurpee.vercel.app/"
+	},
+	{
+		"id": "5",
+		"coverImage": "/project-cover/coffee-spike",
+		"title": "Coffee Spike",
+		"date": "2023.01",
+		"background": "In this personal project I created a homepage called Coffee Spike that sells coffee beans.",
+		"technology": "NextJS, HTML, CSS",
+		"link": "https://coffee-spike.vercel.app/"
+	},
+	{
 		"id": "4",
 		"coverImage": "/project-cover/manga-online",
 		"title": "Manga Online",
