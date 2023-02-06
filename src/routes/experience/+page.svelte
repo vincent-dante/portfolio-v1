@@ -16,37 +16,40 @@
 	</div>
 	<div class="flex flex-wrap gap-5 w-full md:w-5/6 mx-auto">
 		<div>
-			<p class="font-bold pb-2">UBx (Mar 2022 - Present) Software Engineer</p>
+			<p class="font-bold">UBX - Software Engineer</p>
+			<p class="pb-2 text-sm">Mar 2022 - Jan 2023</p>
 			<ul class="pl-5 list-disc">
-				<li>Designed and coding website applications primarily using NuxtJS, VueJS, React</li>
-				<li>Worked as a team member and communicated with peers and Product Owner</li>
-				<li>Worked in mutiple different projects in UBx</li>
+				<li>Develop front-end applications using the latest technology like Vue JS, React JS.</li>
+				<li>Turning UI/UX designs into frontend web applications.</li>
+				<li>Creating reusable components for web applications.</li>
 			</ul>
 		</div>
 		<div>
-			<p class="font-bold pb-2">Global CIS ltd. (July 2019 - Feb 2021) Software Engineer</p>
+			<p class="font-bold">GLOBAL CIS Ltd. - Software Engineer</p>
+			<p class="pb-2 text-sm">July 2019 - Feb 2021</p>
 			<ul class="pl-5 list-disc">
 				<li>
 					Designed and coding website applications primarily using Coldfusion, Javascript/JQuery,
-					HTML, CSS and Oracle DB
+					HTML, CSS and Oracle DB.
 				</li>
 				<li>
 					Managing, maintaining and developing applications and databases in response to company
-					needs
+					needs.
 				</li>
 				<li>
 					Worked as a team member and communicated with senior engineers Monitored web pages and
 					sites for continuous improvement
 				</li>
-				<li>Developed maintenance tools for easier handling of information</li>
+				<li>Developed maintenance tools for easier handling of information.</li>
 			</ul>
 		</div>
 		<div>
-			<p class="font-bold pb-2">Esper Bazaar (Dec 2017 - Oct 2018) I.T (Information Technology)</p>
+			<p class="font-bold ">Ebazaar - Web Developer / Graphic Designer</p>
+			<p class="pb-2 text-sm">Dec 2017 - Oct 2018</p>
 			<ul class="pl-5 list-disc">
-				<li>Maintaining company website.</li>
-				<li>Designing Banner, Flyers, Tarpaulin, Bill Board for the company.</li>
-				<li>Troubleshooting company computer and software. Adding and Updating products in POS</li>
+				<li>Maintaining the company website using Magento.</li>
+				<li>Designing Banner, Flyers, Tarpaulin, BillBoard for the company.</li>
+				<li>Troubleshooting company computers and software.</li>
 			</ul>
 		</div>
 	</div>
