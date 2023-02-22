@@ -43,7 +43,7 @@
 		"title": "Nasa Api",
 		"date": "2021.04",
 		"introduction": "Hi there 👋 this is my personal project using Nasa APIs.",
-		"technology": "Vue.js, Node.js, Vuetify",
+		"technology": "Vue.js, Vuetify",
 		"link": "https://nasa-api-vincentdante.vercel.app/",
 		"github": "https://github.com/vincent-dante/nasa-api",
 		"features": ["Search functionality.", "Modals showing content details."]
