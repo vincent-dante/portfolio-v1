@@ -60,7 +60,7 @@
 			</a>
 
 			<h2 class="font-bold pt-5 pb-2">Github</h2>
-			<a href={selectedProject.link} class="text-sky-500 hover:underline" target="_blank">
+			<a href={selectedProject.github} class="text-sky-500 hover:underline" target="_blank">
 				{selectedProject.github}
 			</a>
 
