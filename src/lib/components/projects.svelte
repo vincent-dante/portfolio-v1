@@ -1,13 +1,13 @@
 <script>
 	import projects from '$lib/data/projects.json';
 
-	projects.sort((a, b) => {
+	const project = projects.sort((a, b) => {
 		return Number(a.date < b.date);
 	});
 </script>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
-	{#each projects as { id, coverImage, title }}
+	{#each project as { id, coverImage, title }}
 		<a href={`/${id}`} class="group relative bg-slate-300 overflow-hidden rounded-lg">
 			<picture>
 				<source srcset={coverImage + '.webp'} type="image/webp" />
