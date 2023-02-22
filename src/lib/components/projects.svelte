@@ -1,7 +1,7 @@
 <script>
 	import projects from '$lib/data/projects.json';
 
-	const project = projects.sort((a, b) => {
+	const project = [...projects].sort((a, b) => {
 		return Number(a.date < b.date);
 	});
 </script>
