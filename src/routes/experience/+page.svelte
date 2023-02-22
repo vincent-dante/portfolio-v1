@@ -1,19 +1,9 @@
-<script>
-	import Header from '$lib/components/header.svelte';
-</script>
-
 <svelte:head>
 	<title>Vincent Dante - Experience</title>
 	<meta name="description" content="Vincent Dante website" />
 </svelte:head>
 
-<div class="py-14 px-4 max-w-6xl mx-auto">
-	<Header />
-	<div class="flex w-full items-center justify-center gap-10 mb-14">
-		<a href="/">Projects</a>
-		<a href="/aboutme">About Me</a>
-		<a href="/experience" class="text-sky-500">Experience</a>
-	</div>
+<div class="max-w-6xl mx-auto">
 	<div class="flex flex-wrap gap-5 w-full md:w-5/6 mx-auto">
 		<div>
 			<p class="font-bold">UBX - Software Engineer</p>

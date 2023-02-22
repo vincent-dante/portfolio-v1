@@ -1,6 +1,5 @@
 <script>
 	import { page } from '$app/stores';
-	import Header from '$lib/components/header.svelte';
 	import projects from '$lib/data/projects.json';
 
 	const params = $page.params;
@@ -10,9 +9,11 @@
 		coverImage: '',
 		title: '',
 		date: '',
-		background: '',
+		introduction: '',
 		technology: '',
-		link: ''
+		link: '',
+		github: '',
+		features: ['']
 	};
 
 	const projectFind = projects.find((proj) => proj.id === params.id);
@@ -24,14 +25,7 @@
 	<meta name="description" content="Vincent Dante website" />
 </svelte:head>
 
-<div class="py-14 px-4 max-w-6xl mx-auto">
-	<Header />
-	<div class="flex w-full items-center justify-center gap-10 mb-14">
-		<a href="/" class="text-sky-500">Projects</a>
-		<a href="/aboutme">About Me</a>
-		<a href="/experience">Experience</a>
-	</div>
-
+<div class="px-4 max-w-6xl mx-auto">
 	<div class="w-full md:w-5/6 mx-auto">
 		<div class="pb-5">
 			<a href="/" class="inline-block">
@@ -50,7 +44,7 @@
 				<img
 					src={selectedProject.coverImage + '.jpg'}
 					alt={selectedProject.title}
-					class="w-full h-auto"
+					class="w-full h-auto rounded-lg"
 					width="900"
 					height="600"
 				/>
@@ -58,15 +52,27 @@
 			<h1 class="text-4xl font-bold py-5">{selectedProject.title}</h1>
 			<p class="pb-8">Date {selectedProject.date}</p>
 
-			<h2 class="font-bold py-5">Background</h2>
-			<p>{selectedProject.background}</p>
-			<h2 class="font-bold py-5">Technology i use</h2>
+			<p>{selectedProject.introduction}</p>
+
+			<h2 class="font-bold pt-5 pb-2">Live preview</h2>
+			<a href={selectedProject.link} class="text-sky-500 hover:underline" target="_blank">
+				{selectedProject.link}
+			</a>
+
+			<h2 class="font-bold pt-5 pb-2">Github</h2>
+			<a href={selectedProject.link} class="text-sky-500 hover:underline" target="_blank">
+				{selectedProject.github}
+			</a>
+
+			<h2 class="font-bold pt-5 pb-2">Tech Stacks</h2>
 			<p>{selectedProject.technology}</p>
 
-			<h2 class="font-bold inline-block my-10">Live website:</h2>
-			<a href={selectedProject.link} class="text-sky-500" target="_blank">
-				{selectedProject.title}
-			</a>
+			<h2 class="font-bold pt-5 pb-2">Features</h2>
+			<ul class="list-disc pl-4">
+				{#each selectedProject.features as feature}
+					<li>{feature}</li>
+				{/each}
+			</ul>
 		{/if}
 	</div>
 </div>

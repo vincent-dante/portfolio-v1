@@ -4,53 +4,77 @@
 		"coverImage": "/project-cover/slurpee",
 		"title": "Slurpee",
 		"date": "2023.01",
-		"background": "In this personal project, I redesign a Slurpee website. I hope you like it 😋",
-		"technology": "NextJS, HTML, CSS",
-		"link": "https://slurpee.vercel.app/"
+		"introduction": "Hi there 👋 this is my personal project where I redesign a Slurpee website. I hope you like it 😋",
+		"technology": "NextJS, Tailwind CSS",
+		"link": "https://slurpee.vercel.app/",
+		"github": "https://github.com/vincent-dante/slurpee",
+		"features": ["Web design for slurpee."]
 	},
 	{
 		"id": "5",
 		"coverImage": "/project-cover/coffee-spike",
 		"title": "Coffee Spike",
 		"date": "2023.01",
-		"background": "In this personal project I created a homepage called Coffee Spike that sells coffee beans.",
-		"technology": "NextJS, HTML, CSS",
-		"link": "https://coffee-spike.vercel.app/"
+		"introduction": "Hi there 👋 this is my personal project name Coffee Spike a home page ui.",
+		"technology": "NextJS, Tailwind CSS",
+		"link": "https://coffee-spike.vercel.app/",
+		"github": "https://github.com/vincent-dante/coffee-spike",
+		"features": ["Home page ui for selling coffee beans."]
 	},
 	{
 		"id": "4",
 		"coverImage": "/project-cover/manga-online",
 		"title": "Manga Online",
 		"date": "2022.10",
-		"background": "In this personal project i create MangaOnline website for people who loves to read there favorite manga.",
-		"technology": "NextJS, HTML, CSS",
-		"link": "https://mangaonline.vercel.app/"
+		"introduction": "Hi there 👋 this is my personal project name Manga Online.",
+		"technology": "NextJS, Tailwind CSS",
+		"link": "https://mangaonline.vercel.app/",
+		"github": "https://github.com/vincent-dante/manga-online",
+		"features": [
+			"Pages for manga homepage, details and manga viewing.",
+			"Pages for marvel characters, comics and creators.",
+			"Navigation buttons - back button & chapter button.",
+			"Error Page.",
+			"The title of the page changes based on manga & chapter title."
+		]
 	},
 	{
 		"id": "3",
 		"coverImage": "/project-cover/nasa",
 		"title": "Nasa Api",
 		"date": "2021.04",
-		"background": "In this personal project i build website using the Nasa Api. The website has search functionality that you can use to search nasa images and also click the image to see the details.",
-		"technology": "Vue.js, Node.js, HTML, CSS",
-		"link": "https://nasa-api-vincentdante.vercel.app/"
+		"introduction": "Hi there 👋 this is my personal project using Nasa APIs.",
+		"technology": "Vue.js, Node.js, Vuetify",
+		"link": "https://nasa-api-vincentdante.vercel.app/",
+		"github": "https://github.com/vincent-dante/nasa-api",
+		"features": ["Search functionality.", "Modals showing content details."]
 	},
 	{
 		"id": "2",
 		"coverImage": "/project-cover/pokemon",
-		"title": "Poké Api",
+		"title": "Pokémon",
 		"date": "2021.02",
-		"background": "In this personal project i build website for pokemon using Poke Api. Inside the website you can search your favourite pokemon and see the attributes of the pokemon",
+		"introduction": "Hi there 👋 this is my personal project using Poké APIs.",
 		"technology": "Vue.js, Node.js, Express.js, HTML, CSS",
-		"link": "https://poke-api-vincentdante.up.railway.app/#/"
+		"link": "https://poke-api-vincentdante.up.railway.app/#/",
+		"github": "https://github.com/vincent-dante/pokemon-api",
+		"features": ["Search functionality for pokémon.", "Pokémon details, attributes and abilities."]
 	},
 	{
 		"id": "1",
 		"coverImage": "/project-cover/marvel",
-		"title": "Marvel Api",
-		"date": "2021.02",
-		"background": "In this personal project i use Marvel Api for creating marvel characters website. You can search your favourite marvel characters on it and see the associate comics you can also see the people who work on the comics. It's fun working on this project because i learn a lot about api and also working on my favourite marvel characters.",
-		"technology": "Vue.js, Node.js, Express.js, HTML, CSS",
-		"link": "https://marvel-api-vincentdante.up.railway.app/#/"
+		"title": "Marvel Characters",
+		"date": "2023.02",
+		"introduction": "Hi there 👋 this is my personal project using Marvel APIs.",
+		"technology": "Nuxtjs, Tailwind CSS",
+		"link": "https://marvel-characters-vincentdante.vercel.app/",
+		"github": "https://github.com/vincent-dante/marvel-api",
+		"features": [
+			"Search functionality for marvel characters.",
+			"Pages for marvel characters, comics and creators.",
+			"Navigation buttons - back button & home button.",
+			"Error Page.",
+			"The title of the page changes based on characters name, comics, or creators name."
+		]
 	}
 ]

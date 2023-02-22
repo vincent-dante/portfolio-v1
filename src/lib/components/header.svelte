@@ -20,13 +20,19 @@
 		Manila, Philippines
 	</div>
 	<div class="text-sm flex w-full items-center justify-center gap-5">
-		<a href="https://github.com/vincent-dante" target="_blank" aria-label="Github">
+		<a
+			href="https://github.com/vincent-dante"
+			target="_blank"
+			aria-label="Github"
+			class="fill-[#353535] hover:fill-gray-600"
+		>
 			<IconGithub />
 		</a>
 		<a
 			href="https://www.linkedin.com/in/vincent-dante-41358b143/"
 			target="_blank"
 			aria-label="LinkedIn"
+			class="fill-[#353535] hover:fill-gray-600"
 		>
 			<IconLinkedin />
 		</a>
