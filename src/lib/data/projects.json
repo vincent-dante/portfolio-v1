@@ -1,5 +1,16 @@
 [
 	{
+		"id": "7",
+		"coverImage": "/project-cover/box-nfts",
+		"title": "Box nfts",
+		"date": "2023.02",
+		"introduction": "Hi there 👋 this is my personal project name Box nfts.",
+		"technology": "NextJS, Tailwind CSS",
+		"link": "https://box-nfts.vercel.app/",
+		"github": "https://github.com/vincent-dante/box-nfts",
+		"features": ["Home page ui for Nft marketplace."]
+	},
+	{
 		"id": "6",
 		"coverImage": "/project-cover/slurpee",
 		"title": "Slurpee",
