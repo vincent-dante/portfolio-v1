@@ -2,6 +2,9 @@
 	import projects from '$lib/data/projects.json';
 
 	const project = [...projects].sort((a, b) => {
+		if (a.date === b.date) {
+			return a.id < b.id ? 1 : -1;
+		}
 		return a.date < b.date ? 1 : -1;
 	});
 </script>
