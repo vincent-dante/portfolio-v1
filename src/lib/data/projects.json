@@ -1,6 +1,7 @@
 [
 	{
 		"id": "7",
+		"order": "8",
 		"coverImage": "/project-cover/box-nfts",
 		"title": "Box nfts",
 		"date": "2023.02",
@@ -12,6 +13,7 @@
 	},
 	{
 		"id": "6",
+		"order": "6",
 		"coverImage": "/project-cover/slurpee",
 		"title": "Slurpee",
 		"date": "2023.01",
@@ -23,6 +25,7 @@
 	},
 	{
 		"id": "5",
+		"order": "5",
 		"coverImage": "/project-cover/coffee-spike",
 		"title": "Coffee Spike",
 		"date": "2023.01",
@@ -34,6 +37,7 @@
 	},
 	{
 		"id": "4",
+		"order": "7",
 		"coverImage": "/project-cover/manga-online",
 		"title": "Manga Online",
 		"date": "2022.10",
@@ -50,6 +54,7 @@
 	},
 	{
 		"id": "3",
+		"order": "1",
 		"coverImage": "/project-cover/nasa",
 		"title": "Nasa Api",
 		"date": "2021.04",
@@ -61,17 +66,24 @@
 	},
 	{
 		"id": "2",
+		"order": "2",
 		"coverImage": "/project-cover/pokemon",
 		"title": "Pokémon",
-		"date": "2021.02",
+		"date": "2023.03",
 		"introduction": "Hi there 👋 this is my personal project using Poké APIs.",
-		"technology": "Vue.js, Node.js, Express.js, HTML, CSS",
-		"link": "https://poke-api-vincentdante.up.railway.app/#/",
+		"technology": "Vue3, TailwindCSS, Pinia",
+		"link": "https://pokemon-api-vincent-dante.vercel.app/",
 		"github": "https://github.com/vincent-dante/pokemon-api",
-		"features": ["Search functionality for pokémon.", "Pokémon details, attributes and abilities."]
+		"features": [
+			"Search functionality for pokémon.",
+			"Pokémon details, attributes and abilities.",
+			"Pokémon background card change based on pokémon elements.",
+			"Using Pinia to store state."
+		]
 	},
 	{
 		"id": "1",
+		"order": "3",
 		"coverImage": "/project-cover/marvel",
 		"title": "Marvel Characters",
 		"date": "2023.02",
