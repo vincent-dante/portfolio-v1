@@ -50,7 +50,7 @@
 				/>
 			</picture>
 			<h1 class="text-4xl font-bold py-5">{selectedProject.title}</h1>
-			<p class="pb-8">Date {selectedProject.date}</p>
+			<p class="pb-8">Updated {selectedProject.date}</p>
 
 			<p>{selectedProject.introduction}</p>
 

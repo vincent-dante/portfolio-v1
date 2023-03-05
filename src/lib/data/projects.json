@@ -40,7 +40,7 @@
 		"order": "7",
 		"coverImage": "/project-cover/manga-online",
 		"title": "Manga Online",
-		"date": "2022.10",
+		"date": "2023.03",
 		"introduction": "Hi there 👋 this is my personal project name Manga Online.",
 		"technology": "NextJS, Tailwind CSS",
 		"link": "https://mangaonline.vercel.app/",
@@ -49,7 +49,8 @@
 			"Pages for manga homepage, details and manga viewing.",
 			"Navigation buttons - back button & chapter button.",
 			"Error Page.",
-			"The title of the page changes based on manga & chapter title."
+			"The title of the page changes based on manga & chapter title.",
+			"Search functionality."
 		]
 	},
 	{
