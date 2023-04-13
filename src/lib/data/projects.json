@@ -1,15 +1,34 @@
 [
 	{
-		"id": "7",
+		"id": "8",
 		"order": "8",
+		"coverImage": "/project-cover/utangna",
+		"title": "UtangNa",
+		"date": "2023.04",
+		"introduction": "Hi there, 👋 this is my personal project name UtangNa where you can take different types of loans for your different types of needs.",
+		"technology": "Nuxt3, Tailwind CSS, Pinia",
+		"link": "https://utangna.vercel.app/",
+		"github": "https://github.com/vincent-dante/utangna",
+		"features": [
+			"Search & Filters for loans.",
+			"UI - Landing Page, Loans Page, Application Form.",
+			"Form validation.",
+			"Mobile Responsive."
+		],
+		"enabled": true
+	},
+	{
+		"id": "7",
+		"order": "7",
 		"coverImage": "/project-cover/box-nfts",
 		"title": "Box nfts",
 		"date": "2023.02",
-		"introduction": "Hi there 👋 this is my personal project name Box nfts.",
+		"introduction": "Hi there, 👋 this is my personal project name Box nfts.",
 		"technology": "NextJS, Tailwind CSS",
 		"link": "https://box-nfts.vercel.app/",
 		"github": "https://github.com/vincent-dante/box-nfts",
-		"features": ["Home page ui for Nft marketplace."]
+		"features": ["Home page ui for Nft marketplace."],
+		"enabled": true
 	},
 	{
 		"id": "6",
@@ -17,11 +36,12 @@
 		"coverImage": "/project-cover/slurpee",
 		"title": "Slurpee",
 		"date": "2023.01",
-		"introduction": "Hi there 👋 this is my personal project where I redesign a Slurpee website. I hope you like it 😋",
+		"introduction": "Hi there, 👋 this is my personal project where I redesign a Slurpee website. I hope you like it 😋",
 		"technology": "NextJS, Tailwind CSS",
 		"link": "https://slurpee.vercel.app/",
 		"github": "https://github.com/vincent-dante/slurpee",
-		"features": ["Web design for slurpee."]
+		"features": ["Web design for slurpee."],
+		"enabled": false
 	},
 	{
 		"id": "5",
@@ -29,11 +49,12 @@
 		"coverImage": "/project-cover/coffee-spike",
 		"title": "Coffee Spike",
 		"date": "2023.01",
-		"introduction": "Hi there 👋 this is my personal project name Coffee Spike a home page ui.",
+		"introduction": "Hi there, 👋 this is my personal project name Coffee Spike a home page ui.",
 		"technology": "NextJS, Tailwind CSS",
 		"link": "https://coffee-spike.vercel.app/",
 		"github": "https://github.com/vincent-dante/coffee-spike",
-		"features": ["Home page ui for selling coffee beans."]
+		"features": ["Home page ui for selling coffee beans."],
+		"enabled": false
 	},
 	{
 		"id": "4",
@@ -41,7 +62,7 @@
 		"coverImage": "/project-cover/manga-online",
 		"title": "Manga Online",
 		"date": "2023.03",
-		"introduction": "Hi there 👋 this is my personal project name Manga Online.",
+		"introduction": "Hi there, 👋 this is my personal project name MangaOnline where you can read your favorite manga.",
 		"technology": "NextJS, Tailwind CSS",
 		"link": "https://mangaonline.vercel.app/",
 		"github": "https://github.com/vincent-dante/manga-online",
@@ -51,7 +72,8 @@
 			"Error Page.",
 			"The title of the page changes based on manga & chapter title.",
 			"Search functionality."
-		]
+		],
+		"enabled": true
 	},
 	{
 		"id": "3",
@@ -59,11 +81,12 @@
 		"coverImage": "/project-cover/nasa",
 		"title": "Nasa Api",
 		"date": "2021.04",
-		"introduction": "Hi there 👋 this is my personal project using Nasa APIs.",
+		"introduction": "Hi there, 👋 this is my personal project using Nasa APIs.",
 		"technology": "Vue.js, Vuetify",
 		"link": "https://nasa-api-vincentdante.vercel.app/",
 		"github": "https://github.com/vincent-dante/nasa-api",
-		"features": ["Search functionality.", "Modals showing content details."]
+		"features": ["Search functionality.", "Modals showing content details."],
+		"enabled": false
 	},
 	{
 		"id": "2",
@@ -71,7 +94,7 @@
 		"coverImage": "/project-cover/pokemon",
 		"title": "Pokémon",
 		"date": "2023.03",
-		"introduction": "Hi there 👋 this is my personal project using Poké APIs.",
+		"introduction": "Hi there, 👋 this is my personal project using Poké APIs.",
 		"technology": "Vue3, TailwindCSS, Pinia",
 		"link": "https://pokemon-api-vincent-dante.vercel.app/",
 		"github": "https://github.com/vincent-dante/pokemon-api",
@@ -80,7 +103,8 @@
 			"Pokémon details, attributes and abilities.",
 			"Pokémon background card change based on pokémon elements.",
 			"Using Pinia to store state."
-		]
+		],
+		"enabled": false
 	},
 	{
 		"id": "1",
@@ -88,7 +112,7 @@
 		"coverImage": "/project-cover/marvel",
 		"title": "Marvel Characters",
 		"date": "2023.02",
-		"introduction": "Hi there 👋 this is my personal project using Marvel APIs.",
+		"introduction": "Hi there, 👋 this is my personal project using Marvel APIs.",
 		"technology": "Nuxtjs, Tailwind CSS",
 		"link": "https://marvel-characters-vincentdante.vercel.app/",
 		"github": "https://github.com/vincent-dante/marvel-api",
@@ -98,6 +122,7 @@
 			"Navigation buttons - back button & home button.",
 			"Error Page.",
 			"The title of the page changes based on characters name, comics, or creators name."
-		]
+		],
+		"enabled": false
 	}
 ]

@@ -10,8 +10,8 @@
 			the Philippines.
 		</p>
 		<p class="pb-5">
-			I build website using the latest technology using HTML5, CSS3, JavaScript ES6, VueJS, React
-			and many more. <br /> I enjoy solving complex problem into simple solution.
+			I build website using the latest technology and frameworks, I enjoy solving complex problem
+			into simple solution.
 		</p>
 		<p>I love to design and create awesome and interactive website.</p>
 		<p class="pt-5">📫 Email: vincent.dante96@gmail.com</p>
