@@ -15,19 +15,30 @@
 	});
 </script>
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-5">
-	{#each project as { id, coverImage, title }}
-		<a
-			href={`/${id}`}
-			class="group relative bg-slate-300 overflow-hidden rounded-lg hidden-element-from-top card"
-		>
-			<picture>
-				<source srcset={coverImage + '.webp'} type="image/webp" />
-				<img src={coverImage + '.jpg'} alt={title} class="w-full " width="400" height="267" />
-			</picture>
-			<div
-				class="absolute inset-0 bg-black opacity-0 group-hover:opacity-25 ease-in-out transition duration-300"
-			/>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+	{#each project as { id, coverImage, title, logo, projectType }}
+		<a href={`/${id}`} class="hidden-element-from-top card">
+			<div class="bg-slate-300 group relative overflow-hidden rounded-lg">
+				<picture>
+					<source srcset={coverImage + '.webp'} type="image/webp" />
+					<img src={coverImage + '.jpg'} alt={title} class="w-full " width="400" height="267" />
+				</picture>
+				<div
+					class="absolute inset-0 bg-black opacity-0 group-hover:opacity-25 ease-in-out transition duration-300"
+				/>
+			</div>
+			<div class="flex items-center justify-between pt-3">
+				<div class="flex items-center">
+					<img src={logo + '.png'} alt={title} width="20" height="20" />
+					<div class="text-xl font-bold text-ellipsis whitespace-nowrap overflow-hidden px-2">
+						{title}
+					</div>
+				</div>
+				<span
+					class="text-xs font-bold uppercase bg-[#F7EFE5] text-[#717171] px-2 py-1 rounded-md whitespace-nowrap"
+					>{projectType}</span
+				>
+			</div>
 		</a>
 	{/each}
 </div>
