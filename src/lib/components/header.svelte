@@ -13,7 +13,7 @@
 	/>
 </div>
 <div class="text-center mb-10">
-	<h1 class="font-bold text-2xl">Vincent Dante</h1>
+	<h1 class="font-bold text-2xl mb-3">Vincent Dante</h1>
 	<h2 class="text-sm mb-2">Software Engineer | Digital Artist</h2>
 	<div class="text-sm flex w-full items-center justify-center gap-1 mb-3">
 		<img src="/location-dot-solid.svg" alt="location dot" class="w-3 h-3 inline-block" />
