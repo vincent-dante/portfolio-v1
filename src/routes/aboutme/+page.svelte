@@ -18,11 +18,11 @@
 
 		<p class="pt-5 hover">
 			🎨 Checkout my Artstation: <a
-				href="https://www.artstation.com/doraimon199"
+				href="https://www.artstation.com/vincentdante"
 				target="_blank"
 				class="text-sky-500 hover:underline"
 			>
-				https://www.artstation.com/doraimon199</a
+				https://www.artstation.com/vincentdante</a
 			>
 		</p>
 	</div>
