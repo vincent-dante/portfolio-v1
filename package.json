@@ -35,7 +35,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@emailjs/browser": "^3.11.0",
 		"sweetalert2": "^11.7.3"
 	}
 }
