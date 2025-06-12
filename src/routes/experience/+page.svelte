@@ -6,6 +6,15 @@
 <div class="max-w-6xl mx-auto">
 	<div class="flex flex-wrap gap-5 w-full md:w-5/6 mx-auto">
 		<div>
+			<p class="font-bold">Hububble - Software Engineer</p>
+			<p class="pb-2 text-sm">May 2023 – Present</p>
+			<ul class="pl-5 list-disc">
+				<li>Develop hubspot modules using HTML, CSS, JS, TailwindCSS, Hubl, Nunjucks, ReactJS.</li>
+				<li>Develop hubspot serverless functions</li>
+				<li>Handling bug fixes and developing new features</li>
+			</ul>
+		</div>
+		<div>
 			<p class="font-bold">UBX - Software Engineer</p>
 			<p class="pb-2 text-sm">Mar 2022 - Jan 2023</p>
 			<ul class="pl-5 list-disc">
