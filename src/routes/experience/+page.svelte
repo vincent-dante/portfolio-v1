@@ -9,9 +9,11 @@
 			<p class="font-bold">Hububble - Software Engineer</p>
 			<p class="pb-2 text-sm">May 2023 – Present</p>
 			<ul class="pl-5 list-disc">
-				<li>Develop hubspot modules using HTML, CSS, JS, TailwindCSS, Hubl, Nunjucks, ReactJS.</li>
-				<li>Develop hubspot serverless functions</li>
-				<li>Handling bug fixes and developing new features</li>
+				<li>
+					Develop, customize, and maintain websites and landing pages using HubSpot CMS and HubL.
+				</li>
+				<li>Handle bug fixes and develop new features.</li>
+				<li>Collaborate with the team and communicate with non-technical stakeholders.</li>
 			</ul>
 		</div>
 		<div>
